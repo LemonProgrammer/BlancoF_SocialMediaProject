@@ -1,0 +1,289 @@
+
+body {
+    padding-top: 5%;
+    padding-bottom: 20px;
+    background-color: #F7DDD4;
+}
+
+.newsCol1, .newsCol2{
+    margin: 5px;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+
+.jumbotron{
+    border: 5px solid black;
+}
+
+.row{
+    border-radius: 20px;
+    border: black 2px solid;
+}
+
+.row:hover{
+    border: 5px solid black;
+}
+
+
+h1 {
+    color: black;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 3px -3px #995c00;
+}
+
+h2, h3, p {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+hr {
+    border-top: 1px solid black;
+}
+
+.navbar-brand{
+    margin: 0;
+    padding-top: 0;
+}
+
+.navbar-brand img{
+    width: 100px;
+    height: 50px;
+}
+
+.logoText{
+    font-family: Gothic;
+    font-size: x-large;
+    
+    padding: 10px;
+    margin: 0 5px;
+    color: blue;
+    
+    border-right: black solid 2px;
+}
+
+/*Profile Page*/
+
+.profileHeader {
+    padding: 0%;
+    border: black 2px solid;
+    border: solid black 5px;
+    width: 55%;
+    height: 340px;
+    background-color: #FF875C;
+}
+
+.profileHeader:hover{
+    border: 5px solid darkblue;
+}
+
+.profiletitle {
+    float: right;
+    margin-top: 13%;
+    margin-right: 15%;
+    margin-left: 0;
+    padding: 5%;
+    margin-bottom: 0;
+    border-left: solid black 3px;
+}
+
+.profilePic{
+    width: 250px;
+    height: 50px;
+    margin-left: -45%;
+    margin-top: -45%; 
+}
+
+
+.profileImageSpace {
+    margin-left: 15%;
+    margin-top: 12%;
+    float: left;
+    margin-bottom: 0;
+    margin-right: 0;
+    padding: 0%;
+}
+
+
+.profileHeader img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+    .profileHeader img:hover {
+        border: black solid 2px;
+    }
+
+.biobox {
+    border-radius: 15px;
+    padding: 5px;
+    border: solid black 2px;
+}
+    .biobox p{
+        padding: 10px;
+        margin: 5px;
+        border: dashed black 2px;
+        background-color: tan;
+    }
+.biobox button{
+    background-color: orangered;
+    margin: 0;
+    border-radius: 5px;
+    width: 100%;
+    text-align: left;
+    border: black dotted 1px;
+}
+
+.biobox button:hover{
+    background-color: lightblue;
+    color: darkblue;
+    border: solid 3px darkblue;
+}
+
+    .gallerybox {
+        border-radius: 15px;
+        padding: 15px;
+        border: solid black 2px;
+    }
+
+.jumbotron {
+    background-color: #ffa31a;
+    color: black;
+}
+
+.favoritesBox {
+    border-radius: 15px;
+    padding: 5px;
+    display: block;
+    border: solid black 2px;
+}
+
+#fav{
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-wrap: wrap;
+    flex: auto;
+}
+
+.favoritesBox button{
+    background-color: orangered;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    text-align: left;
+    border: black dotted 1px;
+}
+
+    .favoritesBox button:hover {
+        background-color: lightgreen;
+        color: darkgreen;
+        border: solid 3px darkgreen;
+    }
+
+.favoritesContainer{
+    border: solid 5px black;
+    padding: 0;
+    background-color: #FC600A;
+    margin-bottom: 5%;
+}
+
+.favoritesContainer:hover{
+    border: brown solid 10px;
+}
+
+.favCategory{
+    text-align: left;
+    font-family: inherit;
+    font-size: large;
+    font-weight: bolder;
+    font-style: unset;
+    margin-bottom: 5px;
+    background-color: #FCCB1A;
+    border: 1px black solid;
+}
+
+
+.favImage img{
+    min-width: 30%;
+    min-height: 30%;
+    max-height: 200px;
+    max-width: 150px;
+    margin-left: 20%;
+    margin-right: 35%;
+    border: solid gray 2px;
+}
+
+.favTitle{
+    text-align: center;
+    font-family: inherit;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 5px;
+    background-color: #FCCB1A;
+    border: 1px black solid;
+}
+
+/*Profile Page*/
+
+/*Bootstrap*/
+
+.navbar{
+    background-color: #4d2e00;
+}
+
+    .navbar li a {
+        border-right: black 1px solid;
+    }
+
+.row {
+    background-color: orange;
+}
+
+/*Gallery Page*/
+.firstImageRow{
+    padding: 15px;
+    border: black 3px solid;
+    border-radius: 5%;
+}
+
+/* Create four equal columns that sits next to each other */
+
+   .img-thumbnail {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5%;
+    }
+
+.img-thumbnail:hover{
+    border: 3px blue solid;
+}
+
+
+/*Gallery Page*/
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/*Bootstrap*/

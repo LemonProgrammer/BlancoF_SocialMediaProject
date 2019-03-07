@@ -1,0 +1,13 @@
+﻿@model ProfileService.Models.FavoritesModel
+
+<div class="favoritesContainer">
+    <div class="favCategory">
+        @Model.Category
+    </div>
+    <div class="img-responsive favImage">
+        <img src="@Model.Image.ImageURL" />
+    </div>
+    <div class="favTitle">
+        @Model.Title
+    </div>
+</div>

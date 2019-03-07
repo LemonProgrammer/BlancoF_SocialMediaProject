@@ -1,0 +1,70 @@
+﻿@model ProfileService.Models.ProfileModel
+
+@{
+    ViewBag.Title = "Gallery";
+}
+
+<h2>@ViewBag.Title</h2>
+<hr />
+@*<div class="row">*@
+    @* First image row *@
+    <div class="row firstImageRow">
+        <div class="col-lg-3 col-md-6 pic1">
+                <img class="img-thumbnail" src="@Model.GalleryImages.Images[0].ImageURL"
+                     alt="@Model.GalleryImages.Images[0].ImageName" />
+        </div>
+        <div class="col-lg-3 col-md-6 pic2">
+            <img class="img-thumbnail"
+                 src="@Model.GalleryImages.Images[1].ImageURL"
+                 alt="@Model.GalleryImages.Images[1].ImageName" />
+        </div>
+        <div class="col-lg-3 col-md-6 pic3">
+            <img class="img-thumbnail"
+                 src="@Model.GalleryImages.Images[2].ImageURL"
+                 alt="@Model.GalleryImages.Images[2].ImageName" />
+        </div>
+        <div class="col-lg-3 col-md-6 pic4">
+            <img class="img-thumbnail"
+                 src="@Model.GalleryImages.Images[3].ImageURL"
+                 alt="@Model.GalleryImages.Images[3].ImageName" />
+        </div>
+        <div class="col-lg-3 col-md-6 pic5">
+            <img class="img-thumbnail"
+                 src="@Model.GalleryImages.Images[4].ImageURL"
+                 alt="@Model.GalleryImages.Images[4].ImageName" />
+        </div>
+    @*</div>*@
+    @* Second Image Row *@
+    @*<div class="row secondImageRow">*@
+        <div class="col-lg-3 col-md-6 pic6">
+            <img class="img-thumbnail"
+                 src="@Model.GalleryImages.Images[5].ImageURL"
+                 alt="@Model.GalleryImages.Images[5].ImageName" />
+        </div>
+
+        <div class="col-lg-3 col-md-6 pic7">
+            <img class="img-thumbnail"
+                 src="@Model.GalleryImages.Images[6].ImageURL"
+                 alt="@Model.GalleryImages.Images[6].ImageName" />
+        </div>
+        <div class="col-lg-3 col-md-6 pic8">
+            <img class="img-thumbnail"
+                 src="@Model.GalleryImages.Images[7].ImageURL"
+                 alt="@Model.GalleryImages.Images[7].ImageName" />
+        </div>
+        <div class="col-lg-3 col-md-6 pic9">
+            <img class="img-thumbnail"
+                 src="@Model.GalleryImages.Images[8].ImageURL"
+                 alt="@Model.GalleryImages.Images[8].ImageName" />
+        </div>
+        <div class="col-lg-3 col-md-6 pic10">
+            <img class="img-thumbnail"
+                 src="@Model.GalleryImages.Images[9].ImageURL"
+                 alt="@Model.GalleryImages.Images[9].ImageName" />
+        </div>
+    </div>
+@*</div>*@
+
+
+
+

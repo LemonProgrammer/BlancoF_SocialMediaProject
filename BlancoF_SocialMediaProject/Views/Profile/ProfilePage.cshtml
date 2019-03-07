@@ -1,0 +1,44 @@
+﻿@model ProfileService.Models.ProfileModel
+
+@{
+    ViewBag.Title = "ProfilePage";
+}
+
+<div class="row profileHeader">
+    <div class="col-xs-3 profileImageSpace">
+        @*@Html.Partial("_ImageModelPartial", Model.ProfileImage)*@
+        <div class="profilePic">
+            <img class="img-thumbnail img-fluid" src="@Model.ProfileImage.ImageURL" />
+            @*width="@Model.Width" height="@Model.Height"*@
+        </div>
+    </div>
+    <div class="col-xs-4 profiletitle">
+
+        <h1>@Model.FirstName @Model.LastName</h1>
+        @*<h2>Some Title</h2>*@
+    </div>
+</div>
+<hr />
+<div class="ProfileBody">
+    <div  class="row biobox">
+        <button data-toggle="collapse" data-target="#bio"><h1>Bio</h1></button>
+        <p id="bio" class="collapse">@Model.Bio</p>
+    </div>
+    <br />
+    <div class="row favoritesBox">
+        <button data-toggle="collapse" data-target="#fav"><h1>Favorites</h1></button>
+        <div id="fav" class="collapse">
+        <div  class="col-md-3 book">
+            @Html.Partial("_FavoritesPartial", Model.FavoritesList[0])
+        </div>
+        <div  class="col-md-3 movie">
+            @Html.Partial("_FavoritesPartial", Model.FavoritesList[1])
+        </div>
+        <div class="col-md-3 game">
+            @Html.Partial("_FavoritesPartial", Model.FavoritesList[2])
+        </div>
+        </div>
+    </div>
+</div>
+
+
