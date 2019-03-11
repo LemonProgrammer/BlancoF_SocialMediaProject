@@ -1,7 +1,12 @@
 
 body {
- 
+
     background-color: #F7DDD4;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
 }
 
 .newsCol1, .newsCol2{
@@ -13,19 +18,14 @@ body {
 
 
 .jumbotron{
-    margin-top: 30px;
     border: 5px solid black;
+    margin-top: 35px;
 }
 
 .row{
     border-radius: 20px;
-    border: black 2px solid;
+    border: black 5px solid;
 }
-
-.row:hover{
-    border: 5px solid black;
-}
-
 
 h1 {
     color: black;
@@ -41,11 +41,6 @@ h2, h3, p {
 
 hr {
     border-top: 1px solid black;
-}
-
-.navbar-brand{
-    margin: 0;
-    padding-top: 0;
 }
 
 .navbar-brand img{
@@ -67,7 +62,8 @@ hr {
 /*Profile Page*/
 
 .profileHeader {
-    padding: 0%;
+    margin-top: 50px;
+    padding: 5%;
     border: black 2px solid;
     border: solid black 5px;
     width: 55%;
@@ -81,9 +77,9 @@ hr {
 
 .profiletitle {
     float: right;
-    margin-top: 13%;
-    margin-right: 15%;
-    margin-left: 0;
+    margin-top: 1%;
+    margin-right: 25%;
+    margin-left: 50%;
     padding: 5%;
     margin-bottom: 0;
     border-left: solid black 3px;
@@ -228,14 +224,6 @@ hr {
 /*Profile Page*/
 
 /*Bootstrap*/
-
-.navbar{
-    background-color: #4d2e00;
-}
-
-    .navbar li a {
-        border-right: black 1px solid;
-    }
 
 .row {
     background-color: orange;
