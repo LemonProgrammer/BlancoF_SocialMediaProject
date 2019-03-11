@@ -1,7 +1,6 @@
 
 body {
-    padding-top: 5%;
-    padding-bottom: 20px;
+  
     background-color: #F7DDD4;
 }
 
@@ -15,17 +14,13 @@ body {
 
 .jumbotron{
     border: 5px solid black;
+    margin-top: 30px;
 }
 
 .row{
     border-radius: 20px;
-    border: black 2px solid;
+    border: black 5px solid;
 }
-
-.row:hover{
-    border: 5px solid black;
-}
-
 
 h1 {
     color: black;
@@ -56,11 +51,8 @@ hr {
 .logoText{
     font-family: Gothic;
     font-size: x-large;
-    
     padding: 10px;
     margin: 0 5px;
-    color: blue;
-    
     border-right: black solid 2px;
 }
 
